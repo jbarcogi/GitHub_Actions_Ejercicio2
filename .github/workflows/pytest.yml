@@ -27,7 +27,7 @@ jobs:
       - name: Instalar dependencias
         run: |
           python -m pip install --upgrade pip
-          pip install -r ../pytest-fixtures-examples-master/requirements.txt
+          pip install -r ./pytest-fixtures-examples-master/requirements.txt
 
       # Paso 3: Ejecutar pytest
       - name: Ejecutar tests con pytest
